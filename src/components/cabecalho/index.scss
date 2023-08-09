@@ -1,0 +1,23 @@
+.comp-cabecalho
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    width: 100%;
+    padding: 18px 40px;
+
+    background-color: #FFF;
+
+    img
+    {
+        margin-right: 14px;
+    }
+
+    h1
+    {
+        font-size: 18px;
+        font-weight: 700;
+        color: #C2C2C2;
+    }
+}
