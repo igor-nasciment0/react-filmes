@@ -4,7 +4,7 @@ export default function Filme(props)
         <tr>
             <td>{props.filme.imdbID}</td>
             <td>{props.filme.Title}</td>
-            <td>{props.filme.Year}</td>
+            <td>{props.filme.Year}<img src={props.filme.Poster} alt={`Poster de ${props.filme.Title}`} /></td>
         </tr>
     )
 }

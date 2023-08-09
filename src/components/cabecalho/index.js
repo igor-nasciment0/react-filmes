@@ -1,6 +1,6 @@
 import "./index.scss";
 
-export default function Cabecalho(params) {
+export default function Cabecalho() {
     return(
         <header className="comp-cabecalho">
             <img src="/logo.svg" alt="Logo" />
