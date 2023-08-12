@@ -12,7 +12,9 @@ export default function Filmes() {
     const [pagina, setPagina] = useState(2);
 
     async function buscarFilme()
-    {
+    {   
+
+        
         let url = `https://www.omdbapi.com/?s=${nomeFilme}&apikey=86af1cb4`;
         let resposta = await axios.get(url);
 
